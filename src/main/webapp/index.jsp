@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>This will be our jenkins server test title</title>
 <style>
 
 </style>
 </head>
 <body>
-
+	
 <h1>Grocery shit</h1>
 <a href="home.jsp">
             <button class="btn btn-primary btn-lg">Click</button>
