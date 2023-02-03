@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testing cicd!!</title>
+<title>continuous integration delivery and deployment pipeline!!</title>
 <style>
 
 </style>
