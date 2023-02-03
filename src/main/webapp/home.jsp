@@ -48,7 +48,7 @@ li a:hover {
 
 	<!-- Header image -->
 	<div
-		style="height: 800px; background-image: url('https://media.timeout.com/images/105790644/750/562/image.jpg'); background-size: cover"
+		style="height: auto; background-image: url('https://media.timeout.com/images/105790644/750/562/image.jpg'); background-size: cover"
 		class="w3-display-container w3-grayscale-min">
 		<div class="w3-display-bottomleft">
 			<span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
