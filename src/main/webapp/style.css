@@ -1,0 +1,20 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+u {
+  color: #FFDC7C;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #E5DCCA;
+  font-size: 1rem;
+  overflow-x: hidden;
+  /* overflow-y: hidden;  */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

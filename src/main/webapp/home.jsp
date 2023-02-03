@@ -9,42 +9,29 @@
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/css?family=Amatic+SC">
-<style>
-body, h1, h2, h3, h4, h5, h6 {
-	font-family: "Amatic SC", sans-serif
-}
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
 
-li {
-	float: left;
-}
+<body onload="setNavBar();">
+		<!-- Navigation -->
+		<nav class="container-fluid navbar navbar-expand-md">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+			<i class="fa-sharp fa-solid fa-bars"></i>
+		  </button>
 
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
+		  <div class="collapse navbar-collapse ml-auto" id="navContent">
+			<div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home</a>
+				</li>
+				<li class="nav-item" id="navUser">
+				  <a class="nav-link" href="#" data-toggle="modal" data-target="#loginForm"><span class="fa-sharp fa-solid fa-right-to-bracket"></span> Login</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
 
-li a:hover {
-	background-color: #111;
-}
-</style>
-<body>
-	<ul>
-		<li><a class="active" href="home.jsp">Home</a></li>
-		<li><a href="products.jsp">Products</a></li>
-		<li><a href="contactUs.jsp">Contact</a></li>
-		<li><a href="aboutus.jsp">About Us</a></li>
-	</ul>
 
 	<!-- Header image -->
 	<div
